@@ -1,7 +1,1 @@
-The dataset is extracted from US hospitals of 10 years clinical care data.
-The dataset is used for diabetic patient readmission.
-The data was segregation is individuals based on their readmission, like > 30 days or <= 30 days.
-The readmission threshold was set as 30 days.
-Any individual is classified into one of the two classes -- 1. readmission > 30 days , 2. readmission <= 30 days.
-Readmission classification was done using the features age, race, gender, diag_1,2,3, tests etc.
-Problem Statement : To create binary classifier such that the individual is classified into the respective class.
+The dataset contains 10 years of clinical care data extracted from US hospitals. It is specifically used for the analysis of diabetic patient readmissions. The data was segmented into individuals based on their readmission status, categorized as either > 30 days or <= 30 days. The readmission threshold was set at 30 days, and each individual was assigned to one of these two classes. The classification of readmission status was determined using features such as age, race, gender, diag_1, diag_2, diag_3, various tests, etc. The problem statement is to create a binary classifier that accurately assigns individuals to their respective readmission class.
